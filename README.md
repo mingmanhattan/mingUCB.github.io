@@ -1,4 +1,4 @@
 # mingUCB.github.io
-## secondary heading
+## homework page
 
-paragarph
+Welcome to my Github page!
