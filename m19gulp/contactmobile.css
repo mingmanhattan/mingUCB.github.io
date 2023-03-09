@@ -111,49 +111,58 @@
       margin: 0 1rem 3rem 1rem;
     }
   
-  @media (min-width:768px) {
-    body {
-      font-size: 20px;
-    }
-    h1 {
-      font-size: 26px;
-    }
-    nav ul {
-      padding: 0;
-      margin: 0;
-      list-style-type: none;
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-    }
-    nav li{
-      font-size: 22px;
-      padding: 1rem;
-      margin: 0;
-    }
-    .main {
-      display: flex;
-      flex-flow: row unwrap;
-      justify-content: center;
-    }
-    article {
-      text-align: start;
-      margin: 3rem 0 0 2rem;
-      padding-left: 2rem;
-      flex-basis: 40%;
-    }
-    picture {
-      flex-basis: 55%;
-    }
-    footer p {
-      padding: 0;
-      margin: 0;
-    }
-   
-    footer a {
-      padding: 0;
-      margin: 0 1rem 0 0;
-    }
+    @media (min-width:768px) {
+      body {
+          font-size: 20px;
+      }
+  
+      h1 {
+          font-size: 26px;
+      }
+  
+      nav ul {
+          padding: 0;
+          margin: 0;
+          list-style-type: none;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+      }
+  
+      nav li {
+          font-size: 22px;
+          padding: 1rem;
+          margin: 0;
+      }
+  
+      .main {
+          display: flex;
+          flex-flow: row unwrap;
+          justify-content: center;
+      }
+  
+      article {
+          text-align: start;
+          margin: 2rem 2rem 0 0;
+          padding-left: 2rem;
+          flex-basis: 40%;
+  
+      }
+  
+      picture {
+          flex-basis: 55%;
+          padding-top: 3rem;
+      }
+  
+      footer p {
+          padding: 0;
+          margin: 0;
+      }
+  
+      footer a {
+          padding: 0;
+          margin: 0 1rem 0 0;
+      }
   }
   
   @media (min-width: 1200px) {
@@ -185,10 +194,11 @@
     article {
       text-align: start;
       padding: 0 1rem 0 10rem;
-      flex-basis: 50%;
+      flex-basis: 45%;
     }
     picture {
-      flex-basis: 45%;
+      flex-basis: 50%;
+      padding-top: 2rem;
     }
     footer p {
       padding: 0;
