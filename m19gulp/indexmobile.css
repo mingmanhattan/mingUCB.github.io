@@ -2,13 +2,13 @@
   box-sizing: border-box;
 }
 body {
-    background-color: #082B59;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
     line-height: 2;
     font-size: 16px;
-    min-width: 600px;
+    min-width: 375px;
   }
   h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
@@ -32,6 +32,7 @@ body {
   }
   /* navbar styling */
   nav ul {
+    background-color: #082B59;
     padding: 0;
     margin: 0;
     list-style-type: none;
@@ -106,6 +107,7 @@ body {
     color: #59331d;
   }
   footer {
+    background-color: #082B59;
     color: #f2f2f2;
     text-align: center;
     border-top: 10px solid #d98555;
@@ -125,7 +127,7 @@ body {
     margin: 0 1rem 3rem 1rem;
   }
 
-@media (min-width:900px) {
+@media (min-width:768px) {
   body {
     font-size: 20px;
   }
